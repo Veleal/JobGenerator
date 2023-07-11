@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910AFB6E2A5D51EB0035B362 /* JobsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910AFB692A5D51EB0035B362 /* JobsTVC.swift */; };
+		910AFB6F2A5D51EB0035B362 /* JobsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910AFB6A2A5D51EB0035B362 /* JobsPresenter.swift */; };
+		910AFB752A5D526F0035B362 /* BlankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910AFB732A5D526F0035B362 /* BlankTableViewCell.swift */; };
+		910AFB762A5D526F0035B362 /* ProgressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910AFB742A5D526F0035B362 /* ProgressTableViewCell.swift */; };
+		910AFB792A5D52750035B362 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910AFB772A5D52750035B362 /* Job.swift */; };
+		910AFB7A2A5D52750035B362 /* TimerJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910AFB782A5D52750035B362 /* TimerJob.swift */; };
+		910AFB7D2A5D527B0035B362 /* TimerJobGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910AFB7B2A5D527A0035B362 /* TimerJobGenerator.swift */; };
+		910AFB7E2A5D527B0035B362 /* JobGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910AFB7C2A5D527A0035B362 /* JobGenerator.swift */; };
 		9140C3FC2A5BFDB7003B59BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140C3FB2A5BFDB7003B59BC /* AppDelegate.swift */; };
 		9140C3FE2A5BFDB7003B59BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140C3FD2A5BFDB7003B59BC /* SceneDelegate.swift */; };
-		9140C4002A5BFDB7003B59BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140C3FF2A5BFDB7003B59BC /* ViewController.swift */; };
 		9140C4032A5BFDB7003B59BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9140C4012A5BFDB7003B59BC /* Main.storyboard */; };
 		9140C4052A5BFDB8003B59BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9140C4042A5BFDB8003B59BC /* Assets.xcassets */; };
 		9140C4082A5BFDB8003B59BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9140C4062A5BFDB8003B59BC /* LaunchScreen.storyboard */; };
-		9140C4132A5BFDB9003B59BC /* JobGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140C4122A5BFDB9003B59BC /* JobGeneratorTests.swift */; };
-		9140C41D2A5BFDB9003B59BC /* JobGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140C41C2A5BFDB9003B59BC /* JobGeneratorUITests.swift */; };
-		9140C41F2A5BFDB9003B59BC /* JobGeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140C41E2A5BFDB9003B59BC /* JobGeneratorUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +40,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		910AFB692A5D51EB0035B362 /* JobsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsTVC.swift; sourceTree = "<group>"; };
+		910AFB6A2A5D51EB0035B362 /* JobsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsPresenter.swift; sourceTree = "<group>"; };
+		910AFB732A5D526F0035B362 /* BlankTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlankTableViewCell.swift; sourceTree = "<group>"; };
+		910AFB742A5D526F0035B362 /* ProgressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressTableViewCell.swift; sourceTree = "<group>"; };
+		910AFB772A5D52750035B362 /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		910AFB782A5D52750035B362 /* TimerJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerJob.swift; sourceTree = "<group>"; };
+		910AFB7B2A5D527A0035B362 /* TimerJobGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerJobGenerator.swift; sourceTree = "<group>"; };
+		910AFB7C2A5D527A0035B362 /* JobGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobGenerator.swift; sourceTree = "<group>"; };
 		9140C3F82A5BFDB7003B59BC /* JobGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9140C3FB2A5BFDB7003B59BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9140C3FD2A5BFDB7003B59BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9140C3FF2A5BFDB7003B59BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9140C4022A5BFDB7003B59BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9140C4042A5BFDB8003B59BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9140C4072A5BFDB8003B59BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9140C4092A5BFDB8003B59BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9140C40E2A5BFDB9003B59BC /* JobGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9140C4122A5BFDB9003B59BC /* JobGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobGeneratorTests.swift; sourceTree = "<group>"; };
 		9140C4182A5BFDB9003B59BC /* JobGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9140C41C2A5BFDB9003B59BC /* JobGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobGeneratorUITests.swift; sourceTree = "<group>"; };
-		9140C41E2A5BFDB9003B59BC /* JobGeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobGeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +84,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		910AFB652A5D51B00035B362 /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				910AFB722A5D523C0035B362 /* Views */,
+				910AFB712A5D52360035B362 /* Models */,
+				910AFB702A5D522F0035B362 /* Helpers */,
+				910AFB6A2A5D51EB0035B362 /* JobsPresenter.swift */,
+				910AFB692A5D51EB0035B362 /* JobsTVC.swift */,
+			);
+			path = Jobs;
+			sourceTree = "<group>";
+		};
+		910AFB702A5D522F0035B362 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				910AFB7C2A5D527A0035B362 /* JobGenerator.swift */,
+				910AFB7B2A5D527A0035B362 /* TimerJobGenerator.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		910AFB712A5D52360035B362 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				910AFB772A5D52750035B362 /* Job.swift */,
+				910AFB782A5D52750035B362 /* TimerJob.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		910AFB722A5D523C0035B362 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				910AFB732A5D526F0035B362 /* BlankTableViewCell.swift */,
+				910AFB742A5D526F0035B362 /* ProgressTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		9140C3EF2A5BFDB7003B59BC = {
 			isa = PBXGroup;
 			children = (
 				9140C3FA2A5BFDB7003B59BC /* JobGenerator */,
-				9140C4112A5BFDB9003B59BC /* JobGeneratorTests */,
-				9140C41B2A5BFDB9003B59BC /* JobGeneratorUITests */,
 				9140C3F92A5BFDB7003B59BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,32 +144,15 @@
 		9140C3FA2A5BFDB7003B59BC /* JobGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				910AFB652A5D51B00035B362 /* Jobs */,
 				9140C3FB2A5BFDB7003B59BC /* AppDelegate.swift */,
 				9140C3FD2A5BFDB7003B59BC /* SceneDelegate.swift */,
-				9140C3FF2A5BFDB7003B59BC /* ViewController.swift */,
 				9140C4012A5BFDB7003B59BC /* Main.storyboard */,
 				9140C4042A5BFDB8003B59BC /* Assets.xcassets */,
 				9140C4062A5BFDB8003B59BC /* LaunchScreen.storyboard */,
 				9140C4092A5BFDB8003B59BC /* Info.plist */,
 			);
 			path = JobGenerator;
-			sourceTree = "<group>";
-		};
-		9140C4112A5BFDB9003B59BC /* JobGeneratorTests */ = {
-			isa = PBXGroup;
-			children = (
-				9140C4122A5BFDB9003B59BC /* JobGeneratorTests.swift */,
-			);
-			path = JobGeneratorTests;
-			sourceTree = "<group>";
-		};
-		9140C41B2A5BFDB9003B59BC /* JobGeneratorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9140C41C2A5BFDB9003B59BC /* JobGeneratorUITests.swift */,
-				9140C41E2A5BFDB9003B59BC /* JobGeneratorUITestsLaunchTests.swift */,
-			);
-			path = JobGeneratorUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9140C4002A5BFDB7003B59BC /* ViewController.swift in Sources */,
+				910AFB6F2A5D51EB0035B362 /* JobsPresenter.swift in Sources */,
 				9140C3FC2A5BFDB7003B59BC /* AppDelegate.swift in Sources */,
+				910AFB762A5D526F0035B362 /* ProgressTableViewCell.swift in Sources */,
+				910AFB7E2A5D527B0035B362 /* JobGenerator.swift in Sources */,
+				910AFB752A5D526F0035B362 /* BlankTableViewCell.swift in Sources */,
+				910AFB6E2A5D51EB0035B362 /* JobsTVC.swift in Sources */,
+				910AFB7A2A5D52750035B362 /* TimerJob.swift in Sources */,
+				910AFB792A5D52750035B362 /* Job.swift in Sources */,
+				910AFB7D2A5D527B0035B362 /* TimerJobGenerator.swift in Sources */,
 				9140C3FE2A5BFDB7003B59BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9140C4132A5BFDB9003B59BC /* JobGeneratorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +310,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9140C41F2A5BFDB9003B59BC /* JobGeneratorUITestsLaunchTests.swift in Sources */,
-				9140C41D2A5BFDB9003B59BC /* JobGeneratorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7437U8BB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JobGenerator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,6 +477,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +498,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7437U8BB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JobGenerator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,6 +506,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
