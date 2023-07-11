@@ -11,7 +11,8 @@ class JobsPresenter {
     typealias ReloadRows = ([Int]) -> Void
     
     private var timerJobGenerator: TimerJobGenerator?
-    var jobs: Array<Job?>
+    // I decided to make it explicitly Optional for easier understanding of logic
+    var jobs: Array<Optional<Job>>
     var reloadRows: ReloadRows
     
     private let capacity = 20
